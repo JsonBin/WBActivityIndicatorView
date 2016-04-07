@@ -5,7 +5,7 @@ swift 写的一段 环形加载进度动画视图
 =======
   
   * 初始化
-    
+        // 自定义圆环的大小，弧线宽度，上半部分颜色等
         let aview = WBActivityIndicatorView.init(frame: CGRectMake(0, 0, 100, 100), lineWidth: 2, topColor: UIColor.redColor(), bottomColor: UIColor.greenColor())
         // 显示
         aview.showActivityViw(self.view)
