@@ -75,10 +75,10 @@ class WBActivityIndicatorView: UIView {
         viewLayer.addSublayer(gradient)
         
         viewLayer.mask = maskLayer
-        let path = UIBezierPath.init(arcCenter: self.center, radius: getViewWidth()/2-linewidth/2, startAngle:CGFloat(-M_PI_2), endAngle: CGFloat(M_PI*2+M_PI_2*3), clockwise: true)
+        let path = UIBezierPath.init(arcCenter: self.center, radius: getViewWidth()/2-linewidth/2, startAngle:CGFloat(-M_PI_2), endAngle: CGFloat(M_PI*2-M_PI_2), clockwise: true)
         maskLayer.path = path.CGPath
         maskLayer.strokeStart = 0.0
-        maskLayer.strokeEnd = 0.25
+        maskLayer.strokeEnd = 0.5
     }
     
     func setProgress(progress: CGFloat) -> Void {
