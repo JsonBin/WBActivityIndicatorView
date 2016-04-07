@@ -23,4 +23,4 @@ swift 写的一段 环形加载进度动画视图
 
 效果图
 ======
-![gif](http://www.gfycat.com/DistortedCelebratedGar)
+![gif](https://github.com/JsonBin/WBActivityIndicatorView/raw/master/WBActivityIndicatorView/activity.gif "进度条")
